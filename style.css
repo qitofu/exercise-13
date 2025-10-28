@@ -12,7 +12,39 @@ html {
 	color: #444444;
 }
 
+header {
+  width: 800px;
+	margin-bottom: 50px;
+	padding: 30px;
+	background-color: #879eb4;
+	color:  #fdfdfd;
+	font-size: 10px;
+	text-transform: uppercase;
+
+}
 
 body {
   width: 500px;
+  margin: auto;
 }
+
+h2 { 
+font-size: 28px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+a {
+	color:  #444444;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFD0A6;
+
+
