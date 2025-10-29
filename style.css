@@ -24,7 +24,7 @@ header {
 }
 
 body {
-  width: 500px;
+  width: 800px;
   margin: auto;
 }
 
@@ -39,12 +39,53 @@ p {
 	line-height: 1.5em;
 }
 
+
 a {
-	color:  #444444;
+	color: #73b787;
 	text-decoration: none;
+	font-size: 18px;
 }
 
 a:hover {
-	color: #FFD0A6;
+	color: #b7bcc1;
+}
 
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 300px;
+	
+}
+ 
+.blockone {
+	padding: 30px;
+}
 
+.blocktwo {
+	background-image: url("https://i.pinimg.com/736x/5b/44/8e/5b448e773beb01ae44db7e527964fe41.jpg");
+  background-position: center;
+	background-size: cover;
+	
+		
+}
+
+.blockthree {
+	background-image: url("https://external-preview.redd.it/eYtFzGMVjWSLS4yLbC27k8kskFqqFbX0sEjn0Xz1s4Y.gif?width=640&crop=smart&format=png8&s=f7c75a82c53c3650867bc219d945bb2cbafddf4b");
+  background-position: center;
+	background-size: cover;
+	
+}
+.blockfour{
+	padding: 40px;
+}
+
+.blockfive{
+	padding: 40px;
+}
+
+.blocksix {
+	background-image: url("https://static.producer.com/wp-content/uploads/2022/10/12141941/31-5-col_IMG_1247.jpg");
+  background-position: center;
+	background-size: cover;
+	
+}
